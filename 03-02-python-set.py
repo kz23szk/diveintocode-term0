@@ -1,9 +1,11 @@
+#coding:utf-8
 course_dict = {
     'AIコース': {'Aさん', 'Cさん', 'Dさん'},
     'Railsコース': {'Bさん', 'Cさん', 'Eさん'},
     'Railsチュートリアルコース': {'Gさん', 'Fさん', 'Eさん'},
     'JS': {'Aさん', 'Gさん', 'Hさん'},
 }
+
 
 # 関数のいい名前が思いつかない
 def print_enrolled_person(want_to_find_person, check_course_name, check_course_member):
