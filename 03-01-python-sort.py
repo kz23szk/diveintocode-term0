@@ -18,7 +18,7 @@ def print_format(file_path):
             address_number_list.append(int(row_list[1]))
             print_str_list.append(' '.join(row_list))
 
-        ＃郵便番号順にソートする
+        # 郵便番号順にソートする
         for i in range(len(print_str_list)):
             for j in range(i+1, len(print_str_list)):
                 if address_number_list[i] > address_number_list[j]:
@@ -29,4 +29,5 @@ def print_format(file_path):
         for print_str in print_str_list:
             print(print_str)
 
-print_format('./input_data/address_data.csv')
+
+print_format('./address_data.csv')
