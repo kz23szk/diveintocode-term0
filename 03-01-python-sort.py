@@ -13,7 +13,7 @@ def print_format(file_path):
         print(' '.join(next(reader)))
         # 郵便番号順で並び替える
         sorted_address = sorted(reader, key=lambda x: x[1]) 
-        for print_str in sorted_ddress:
+        for print_str in sorted_address:
             print(' '.join(print_str))
 
 
