@@ -4,7 +4,7 @@ SUBJECT_LIST = ['Python', '数学', '機械学習', '深層学習', 'エンジ�
 
 
 def output_schedule(study_time_list):
-    '''今週の勉強予定を出力します'''
+    '''今週の勉強予定を出力します '''
     study_subject_index = 0
     len_SUBJECT_LIST = len(SUBJECT_LIST)
     for week_str, study_volume in zip(WEEK_LIST, study_time_list):
